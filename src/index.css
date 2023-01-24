@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.App{
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  /* background: #f5f5f5; */
+
+}
+form{}
+form input{
+  padding: 0 15px;
+  width: 100%;
+  height: 45px;
+  border: 1px solid #ddd;
+}
+.single-form{
+  margin-bottom: 15px;
+}
+.single-form button{
+  cursor: pointer;
+  max-width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  line-height: 50px;
+  width: 100%;
+  border: 0;
+  background: rgb(7, 104, 224);
+  color: #fff;
+  border-radius: 5px;
+}
+.singleTodo h2{
+  font-size: 24px;
+}
+.singleTodo p{
+  font-size: 16px;
+  line-height: 1.5;
+}
+.singleTodo h3{
+  font-size: 16px;
+  font-style: italic;
+  background: #eee;
+  display: inline-block;
+  padding: 5px 10px;
+}
+.singleTodo{
+  padding: 25px 50px 25px 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  position: relative;
+}
+.singleTodo button{
+  border: 0;
+  line-height: 48px;
+  padding: 0 20px;
+  font-size: 16px;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  bottom: -24px;
+background: #dc4c64;
+color: #fff;
+border-radius: 3px;
+}
